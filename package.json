@@ -1,0 +1,26 @@
+{
+  "name": "bso7-streamer-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot written in Typescript for the purpose of spreading awareness of the BSo7 community casters.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjusttriz/bso7-streamer-bot.git"
+  },
+  "author": "itsjusttriz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsjusttriz/bso7-streamer-bot/issues"
+  },
+  "homepage": "https://github.com/itsjusttriz/bso7-streamer-bot#readme",
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "discord-minimal": "^0.1.31"
+  }
+}
